@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+main {
+  padding: 10px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 400px;
+  min-width: 300px;
+  width: 400px;
+  min-height: 80vh;
+  padding: 1rem;
+  background-color: #ccc;
+}
+
+.container>h1 {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+#screen {
+  min-height: 5rem;
+  background-color: #ddd;
+  font-size: 3.2rem;
+  padding: 0.2rem;
+  margin: 0.2rem 0;
+}
+
+#button-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #eee;
+  padding: 1.5rem 0;
+}
+
+#button-area>.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+}
+
+.wrap>.btn {
+  width: 6.45rem;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 0.2rem 0.5rem;
+  font-size: 1.5rem;
+  width: 6.5rem;
+  border-radius: 0.2rem;
+  transition: transform 500ms;
+}
+
+.btn:hover {
+  background-color: #bbb;
+  transform: scale(0.8);
+}
+
+.btn-func {
+  color: rgba(7, 7, 129, 0.795);
+  font-weight: 700;
+}
+
+.btn-opr {
+  color: rgba(7, 7, 129, 0.795);
+  font-weight: 700;
+}
+
+.btn-disable {
+  color: #bbb !important
+}
